@@ -68,14 +68,14 @@
             fill:#baa6e8!important;
             stroke:#5e32c4 !important;
             stroke-width:3 !important;
-            stroke-miterlimit:10; !important;
+            stroke-miterlimit:10 !important;
             fill-opacity:0.7;
         }
         .selectedRegion{
             fill:#fdc365!important;
             stroke:#e89103 !important;
             stroke-width:3 !important;
-            stroke-miterlimit:10; !important
+            stroke-miterlimit:10 !important;
             fill-opacity:0.7;
         }
         
@@ -109,8 +109,10 @@
     <script>
       // ** INSERT LEGEND CHART SVG ** //
         
-      var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://pages.uoregon.edu/infographics/dev/NSRC/REN/'; // avoid CORS error during dev
-        
+      //var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://pages.uoregon.edu/infographics/dev/NSRC/REN/'; // avoid CORS error during dev
+      
+      devPath=''
+      
       d3.text(devPath + "REN_MAP.svg", function(error, externalSVGText) {
              if (error) {console.log(error); return;}
           else{
