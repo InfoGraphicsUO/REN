@@ -1,0 +1,198 @@
+var RENData = {
+   "AARNET": [
+      {
+         "Locations": "Australia",
+         "URL": "https://bgp.nsrc.org/REN/AARNET-Brisbane/"
+      },
+      {
+         "Locations": "Australia",
+         "URL": "https://bgp.nsrc.org/REN/AARNET-Seattle/"
+      }
+   ],
+   "ASREN": [
+      {
+         "Locations": "Algeria, Bahrain, Comoros, Djibouti, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Mauritania, Morocco, Oman, Palestine, Qatar, Saudi  Arabia, Somalia, Sudan, Syria, Tunisia, United Arab Emirates, Yemen",
+         "URL": "https://bgp.nsrc.org/REN/ASREN/"
+      }
+   ],
+   "BdREN": [
+      {
+         "Locations": "Bangladesh",
+         "URL": "https://bgp.nsrc.org/REN/BDREN/ "
+      }
+   ],
+   "CANARIE": [
+      {
+         "Locations": "Canada",
+         "URL": "https://bgp.nsrc.org/REN/CANARIE/"
+      }
+   ],
+   "CEDIA": [
+      {
+         "Locations": "Ecuador",
+         "URL": "https://bgp.nsrc.org/REN/CEDIA/"
+      }
+   ],
+   "CENIC": [
+      {
+         "Locations": "California",
+         "URL": "https://bgp.nsrc.org/REN/CENIC/ "
+      }
+   ],
+   "CERNET": [
+      {
+         "Locations": "China",
+         "URL": "https://bgp.nsrc.org/REN/CERNET/"
+      }
+   ],
+   "DrukREN": [
+      {
+         "Locations": "Bhutan",
+         "URL": "https://bgp.nsrc.org/REN/DrukREN/"
+      }
+   ],
+   "Erdemnet": [
+      {
+         "Locations": "Mongolia",
+         "URL": "https://bgp.nsrc.org/REN/Erdemnet/ "
+      }
+   ],
+   "ESnet": [
+      {
+         "Locations": "United States ",
+         "URL": "https://bgp.nsrc.org/REN/ESnet/"
+      }
+   ],
+   "GARNET": [
+      {
+         "Locations": "Ghana",
+         "URL": "https://bgp.nsrc.org/REN/GARNET/"
+      }
+   ],
+   "GEANT": [
+      {
+         "Locations": "Albania, Armenia, Austria, Azerbaijan, Belarus, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Latvia, Lithuania, Luxembourg, North Macedonia, Malta, Moldova, Montenegro, Netherlands, Norway, Poland, Portugal, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, Ukraine, United Kingdom  ",
+         "URL": "https://bgp.nsrc.org/REN/GEANT/ "
+      }
+   ],
+   "GOREX": [
+      {
+         "Locations": "Guam",
+         "URL": "https://bgp.nsrc.org/REN/GOREX/"
+      }
+   ],
+   "Internet2": [
+      {
+         "Locations": "United States",
+         "URL": "https://bgp.nsrc.org/REN/Internet2/"
+      }
+   ],
+   "Janet": [
+      {
+         "Locations": "United Kingdom",
+         "URL": "https://bgp.nsrc.org/REN/Janet/"
+      }
+   ],
+   "KENET": [
+      {
+         "Locations": "Kenya",
+         "URL": "https://bgp.nsrc.org/REN/KENET/"
+      }
+   ],
+   "KREONet2": [
+      {
+         "Locations": "South Korea",
+         "URL": "https://bgp.nsrc.org/REN/KREONet2/"
+      }
+   ],
+   "MARWAN": [
+      {
+         "Locations": "Morocco",
+         "URL": "https://bgp.nsrc.org/REN/MARWAN/"
+      }
+   ],
+   "PERN": [
+      {
+         "Locations": "Pakistan",
+         "URL": "https://bgp.nsrc.org/REN/PERN/"
+      }
+   ],
+   "REANNZ": [
+      {
+         "Locations": "New Zealand",
+         "URL": "https://bgp.nsrc.org/REN/REANNZ/"
+      }
+   ],
+   "RedCLARA": [
+      {
+         "Locations": "Brazil, Colombia, Costa Rica, Chile, Ecuador, Guatemala, Honduras, Mexico, Nicaragua, Uruguay ",
+         "URL": "https://bgp.nsrc.org/REN/RedCLARA/"
+      }
+   ],
+   "RENU": [
+      {
+         "Locations": "Uganda",
+         "URL": "https://bgp.nsrc.org/REN/RENU/"
+      }
+   ],
+   "SingAREN": [
+      {
+         "Locations": "Singapore",
+         "URL": "https://bgp.nsrc.org/REN/SingAREN/"
+      }
+   ],
+   "TENET": [
+      {
+         "Locations": "South Africa",
+         "URL": "https://bgp.nsrc.org/REN/TENET/"
+      }
+   ],
+   "ThaiREN": [
+      {
+         "Locations": "Thailand",
+         "URL": "https://bgp.nsrc.org/REN/ThaiREN/"
+      }
+   ],
+   "UbuntuNet Alliance": [
+      {
+         "Locations": "Botswana, Burundi, Democratic Republic of Congo, Ethiopia, Madagascar, Kenya, Malawi, Mozambique, Uganda, Rwanda, Somalia, Sudan, South Africa, Tanzania, Namibia, Zambia, Zimbabwe ",
+         "URL": "https://bgp.nsrc.org/REN/UbuntuNet/"
+      }
+   ],
+   "University of Guam": [
+      {
+         "Locations": "Guam",
+         "URL": "https://bgp.nsrc.org/REN/UniGuam/"
+      }
+   ],
+   "University of Hawaii": [
+      {
+         "Locations": "Hawaii",
+         "URL": "https://bgp.nsrc.org/REN/UniHawaii/"
+      }
+   ],
+   "University of the South Pacific": [
+      {
+         "Locations": "Fiji",
+         "URL": "https://bgp.nsrc.org/REN/USP/ "
+      }
+   ],
+   "URAN": [
+      {
+         "Locations": "Ukraine",
+         "URL": "https://bgp.nsrc.org/REN/URAN/"
+      }
+   ],
+   "WACREN": [
+      {
+         "Locations": "Benin, Burkina Faso, Cameroon, Tchad, Cote dIvoire, Ghana, Guinea, Liberia, Mali, Nigeria, Niger, Sierra Leone, Togo",
+         "URL": "https://bgp.nsrc.org/REN/WACREN/"
+      }
+   ],
+   "ZAMREN": [
+      {
+         "Locations": "Zambia",
+         "URL": "https://bgp.nsrc.org/REN/ZAMREN/"
+      }
+   ]
+}

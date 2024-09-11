@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>REN Map</title>
+
+    
+    <!-- Country data -->
+    <script src="countrylist.json"></script>
+
+    <style>
+
+        #REN_body{
+            display:flex;
+        }
+
+        /* custom css here*/
+        #mapImage{
+            height: 98vh;
+            width: 100%;
+            /*max-width: 900px;  match https://bgp.nsrc.org/REN/index.html */
+        }
+
+        svg{
+            height:100%;
+            display: block;
+            margin: auto; 
+        }
+        
+        .selectedCircle{
+            fill-opacity: 0.95 !important;
+            filter: drop-shadow(10px 5px 0.75rem #333)
+        }
+        
+        /* countries */
+       .st3{
+           fill:none!important;
+           stroke-linejoin:round!important;
+           stroke-linecap:round!important;
+        }
+        /* Network Name */
+       .st6{
+           font-family: Arial, sans-serif!important;
+           font-weight: bold!important;
+        }
+        
+        /* ASN */
+       .st8{
+           font-family: Arial, sans-serif!important;
+           font-weight: 100!important;
+           font-style: italic;
+           font-size: 17px!important;
+        }
+        /* infographics */
+       .st26{
+            font-family: serif!important;
+            font-weight: bold!important;
+            font-style: normal!important;
+/*            letter-spacing: 2rem;*/
+        }
+        .selectedCountry{
+            fill:#baa6e8!important;
+            stroke:#5e32c4 !important;
+            stroke-width:3 !important;
+            stroke-miterlimit:10; !important;
+            fill-opacity:0.7;
+        }
+        .selectedRegion{
+            fill:#fdc365!important;
+            stroke:#e89103 !important;
+            stroke-width:3 !important;
+            stroke-miterlimit:10; !important
+            fill-opacity:0.7;
+        }
+        
+        #REN_Logos{
+            /* image-rendering: optimizeSpeed; */
+/*           image-rendering: -webkit-optimize-contrast;*/
+            /* image-rendering: auto;  */
+/*            image-rendering: pixelated;*/
+/*            image-rendering: crisp-edges;  */
+             image-rendering: -webkit-transform-style: preserve-3d;
+        }
+        
+
+    </style>
+
+</head>
+
+<body id="REN_body">
+
+    <div id="mapImage" title="Click to open REN info in new tab." ><!-- map inserted here via JS --></div>
+
+
+
+
+
+    <!-- JS SOURCES -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    
+    <!-- END JS SOURCES -->
+    
+    <script>
+      // ** INSERT LEGEND CHART SVG ** //
+        
+      var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://pages.uoregon.edu/infographics/dev/NSRC/REN/'; // avoid CORS error during dev
+        
+      d3.text(devPath + "REN_MAP.svg", function(error, externalSVGText) {
+             if (error) {console.log(error); return;}
+          else{
+               console.log("SVG Loaded")
+              }
+            document.getElementById('mapImage').innerHTML=externalSVGText;
+            doThings();
+      })
+        
+        
+        function doThings(){
+           // disable mouse interaction on objects above circles    
+           d3.selectAll("#REN_Logos").attr("pointer-events", "none")
+//           d3.selectAll("#REN_Logos").attr("style", "mix-blend-mode: multiply")
+//            d3.selectAll("#REN_Logos").attr("style", "image-rendering: -webkit-optimize-contrast;")
+           d3.selectAll("#ASN_Number").attr("pointer-events", "none")
+           d3.selectAll("#Network_Name").attr("pointer-events", "none")
+                          
+
+            
+            /* Interaction functions */
+            d3.selectAll("#Circles>circle")
+                   .attr("title","click to open REN info in new tab")
+                   .on("mouseover", function(d,i) { 
+                
+                
+                        var thisCircle = this.id.replaceAll("_", " ");
+                        console.log(thisCircle)
+                        // add drop shadow section class to the circle
+                        d3.select(this)
+                            .classed("selectedCircle", true)
+                            
+                
+                        // get REN data from JSON to color countries
+                        if (RENData[thisCircle] != undefined){
+                            // clean country list (split on commas and trim whitespace)
+                            countryList = RENData[thisCircle][0].Locations.split(',').map(item=>item.trim());
+                             // put _s back in country list for polygon selectors
+                            countryList = countryList.map(item=>item.replaceAll(" ","_"));
+
+//                            console.log(countryList)
+                                                        
+
+                           // build D3 selector for country DOM objects (some are path, some are polyline, so building both for all)   
+                            
+                            // e.g. d3.selectAll("#Countries>polyline#"+countryList)
+                            // e.g. d3.selectAll("#Countries>g#Guam>polygon")
+                             
+                            
+                            if(countryList.length>1){
+                                //is a region
+//                                console.log("REGIONAL")
+
+                                countryList = countryList.map(function(item) {
+                                    var itemSelectorPoly = "#Countries>g#"+item+">polygon"
+                                    // console.log(itemSelectorPoly)
+                                    var thisItem = d3.selectAll(itemSelectorPoly)
+                                    raiseAndRecolorItem(thisItem, "selectedRegion")
+
+                                    var itemSelectorPolySingle = "#Countries>polygon#"+item
+                                    // console.log(itemSelectorPoly)
+                                    var thisItem = d3.selectAll(itemSelectorPolySingle)
+                                    raiseAndRecolorItem(thisItem, "selectedRegion")
+
+                                    var itemSelectorPath = "#Countries>path#"+item
+                                    var thisItem = d3.selectAll(itemSelectorPath)
+                                    raiseAndRecolorItem(thisItem, "selectedRegion")
+                                    // console.log("path")
+
+                                    var itemSelectorPolyline= "#Countries>polyline#"+item
+                                    // console.log(itemSelectorPolyline)
+                                    var thisItem = d3.selectAll(itemSelectorPolyline)
+                                    raiseAndRecolorItem(thisItem, "selectedRegion")
+
+                            });
+                                
+                            } else {
+                                 // is only one country
+//                                console.log("COUNTRY")
+
+                                countryList = countryList.map(function(item) {
+                                    var itemSelectorPolySingle = "#Countries>polygon#"+item
+                                    // console.log(itemSelectorPolySingle)
+                                    var thisItem = d3.selectAll(itemSelectorPolySingle)
+                                    raiseAndRecolorItem(thisItem, "selectedCountry")
+
+                                    var itemSelectorPath = "#Countries>path#"+item
+                                    // console.log("path")
+                                    var thisItem = d3.selectAll(itemSelectorPath)
+                                    raiseAndRecolorItem(thisItem, "selectedCountry")
+
+
+                                    var itemSelectorPolyline= "#Countries>polyline#"+item
+                                    // console.log(itemSelectorPolyline)
+                                    var thisItem = d3.selectAll(itemSelectorPolyline)
+                                    raiseAndRecolorItem(thisItem, "selectedCountry")
+                                    
+                                    var itemSelectorPoly = "#Countries>g#"+item+">polygon"
+                                    // console.log(itemSelectorPoly)
+                                    var thisItem = d3.selectAll(itemSelectorPoly)
+                                    
+                                    if (typeof thisItem !== 'undefined'){
+                                        raiseAndRecolorItem(thisItem, "selectedCountry")
+                                        //special case (Hawaii), raise the parent group as well
+                                        thisItem = d3.selectAll("#Countries>g#"+item)
+                                        thisItem.raise()
+                                    }
+
+                                });
+                            }
+                            
+                        } else {
+                            console.log("circle not fond")
+                        }
+
+
+                    })
+                   .on("mouseout", function(d,i) {   
+                        // remove drop shadow section class from the circle
+                        d3.select(this).classed("selectedCircle", false);
+                
+
+                
+                        // remove color from all countries
+                        d3.selectAll("polygon")
+                             .classed("selectedCountry", false);
+                        d3.selectAll("#Countries>polygon")
+                             .classed("selectedCountry", false);
+                        d3.selectAll("#Countries>path")
+                             .classed("selectedCountry", false); 
+                        d3.selectAll("#Countries>polyline")
+                             .classed("selectedCountry", false); 
+                        // remove color from all regions
+                        d3.selectAll("polygon")
+                             .classed("selectedRegion", false);
+                        d3.selectAll("#Countries>polygon")
+                             .classed("selectedRegion", false);
+                        d3.selectAll("#Countries>path")
+                             .classed("selectedRegion", false); 
+                        d3.selectAll("#Countries>polyline")
+                             .classed("selectedRegion", false);
+                    })
+                    .on("click", function(d,i) { 
+                        var thisCircle = this.id.replaceAll("_", " ");
+                        console.log(thisCircle)
+                        // highlight the region on the chart
+                        d3.select(this)
+                            // get REN data from JSON
+                        if (RENData[thisCircle] != undefined){
+                            targetURL = RENData[thisCircle][0].URL
+//                            console.log(targetURL)
+                            window.open(targetURL, '_blank').focus();
+                        } else {
+                            console.log("circle not fond")
+                        }
+                
+                
+
+                    })
+        }
+        
+        function raiseAndRecolorItem(thisItem, type){
+            // @params type ="selectedCountry"|"selectedPath"
+            if (typeof thisItem !== 'undefined'){
+                thisItem.raise(); // move to front of parent list
+                thisItem.classed(type, true); // change colors
+            }
+        }
+        
+    </script>
+</body>
+
+</html>
