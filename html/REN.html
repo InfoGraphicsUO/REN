@@ -109,9 +109,9 @@
     <script>
       // ** INSERT LEGEND CHART SVG ** //
         
-      //var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://pages.uoregon.edu/infographics/dev/NSRC/REN/'; // avoid CORS error during dev
+      var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://pages.uoregon.edu/infographics/dev/NSRC/REN/'; // avoid CORS error during dev
       
-      devPath=''
+    //   devPath=''
       
       d3.text(devPath + "REN_MAP.svg", function(error, externalSVGText) {
              if (error) {console.log(error); return;}
