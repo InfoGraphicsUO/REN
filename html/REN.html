@@ -139,8 +139,7 @@
 //            d3.selectAll("#REN_Logos").attr("style", "image-rendering: -webkit-optimize-contrast;")
            d3.selectAll("#ASN_Number").attr("pointer-events", "none")
            d3.selectAll("#Network_Name").attr("pointer-events", "none")
-                          
-
+                        
             
             /* Interaction functions */
             d3.selectAll("#Circles>circle")
@@ -203,65 +202,10 @@
                                 console.log("COUNTRY")
                                 if(otherParticipants.includes(thisCircle)){
                                     console.log('other participant')
-                                    countryList = countryList.map(function(item) {
-                                        var itemSelectorPolySingle = "#Countries>polygon#"+item
-                                        // console.log(itemSelectorPolySingle)
-                                        var thisItem = d3.selectAll(itemSelectorPolySingle)
-                                        raiseAndRecolorItem(thisItem, "selectedOther")
-
-                                        var itemSelectorPath = "#Countries>path#"+item
-                                        // console.log("path")
-                                        var thisItem = d3.selectAll(itemSelectorPath)
-                                        raiseAndRecolorItem(thisItem, "selectedOther")
-
-
-                                        var itemSelectorPolyline= "#Countries>polyline#"+item
-                                        // console.log(itemSelectorPolyline)
-                                        var thisItem = d3.selectAll(itemSelectorPolyline)
-                                        raiseAndRecolorItem(thisItem, "selectedOther")
-                                        
-                                        var itemSelectorPoly = "#Countries>g#"+item+">polygon"
-                                        // console.log(itemSelectorPoly)
-                                        var thisItem = d3.selectAll(itemSelectorPoly)
-                                        
-                                        if (typeof thisItem !== 'undefined'){
-                                            raiseAndRecolorItem(thisItem, "selectedOther")
-                                            //special case (Hawaii), raise the parent group as well
-                                            thisItem = d3.selectAll("#Countries>g#"+item)
-                                            thisItem.raise()
-                                        }
-                                    });
+                                    fillCountry('other')
+                                } else {
+                                    fillCountry('national')
                                 }
-
-                                countryList = countryList.map(function(item) {
-                                    var itemSelectorPolySingle = "#Countries>polygon#"+item
-                                    // console.log(itemSelectorPolySingle)
-                                    var thisItem = d3.selectAll(itemSelectorPolySingle)
-                                    raiseAndRecolorItem(thisItem, "selectedCountry")
-
-                                    var itemSelectorPath = "#Countries>path#"+item
-                                    // console.log("path")
-                                    var thisItem = d3.selectAll(itemSelectorPath)
-                                    raiseAndRecolorItem(thisItem, "selectedCountry")
-
-
-                                    var itemSelectorPolyline= "#Countries>polyline#"+item
-                                    // console.log(itemSelectorPolyline)
-                                    var thisItem = d3.selectAll(itemSelectorPolyline)
-                                    raiseAndRecolorItem(thisItem, "selectedCountry")
-                                    
-                                    var itemSelectorPoly = "#Countries>g#"+item+">polygon"
-                                    // console.log(itemSelectorPoly)
-                                    var thisItem = d3.selectAll(itemSelectorPoly)
-                                    
-                                    if (typeof thisItem !== 'undefined'){
-                                        raiseAndRecolorItem(thisItem, "selectedCountry")
-                                        //special case (Hawaii), raise the parent group as well
-                                        thisItem = d3.selectAll("#Countries>g#"+item)
-                                        thisItem.raise()
-                                    }
-
-                                });
                             }
                             
                         } else {
@@ -270,7 +214,7 @@
 
 
                     })
-                   .on("mouseout", function(d,i) {   
+                    .on("mouseout", function(d,i) {   
                         // remove drop shadow section class from the circle
                         d3.select(this).classed("selectedCircle", false);
                         d3.selectAll(".selectedOther").classed('selectedOther', false)
@@ -302,6 +246,69 @@
             if (typeof thisItem !== 'undefined'){
                 thisItem.raise(); // move to front of parent list
                 thisItem.classed(type, true); // change colors
+            }
+        }
+
+        function fillCountry(countryType){
+            // fills in the other participants in teal
+            if(countryType === 'other'){
+                countryList = countryList.map(function(item) {
+                    var itemSelectorPolySingle = "#Countries>polygon#"+item
+                    // console.log(itemSelectorPolySingle)
+                    var thisItem = d3.selectAll(itemSelectorPolySingle)
+                    raiseAndRecolorItem(thisItem, "selectedOther")
+
+                    var itemSelectorPath = "#Countries>path#"+item
+                    // console.log("path")
+                    var thisItem = d3.selectAll(itemSelectorPath)
+                    raiseAndRecolorItem(thisItem, "selectedOther")
+
+
+                    var itemSelectorPolyline= "#Countries>polyline#"+item
+                    // console.log(itemSelectorPolyline)
+                    var thisItem = d3.selectAll(itemSelectorPolyline)
+                    raiseAndRecolorItem(thisItem, "selectedOther")
+                    
+                    var itemSelectorPoly = "#Countries>g#"+item+">polygon"
+                    // console.log(itemSelectorPoly)
+                    var thisItem = d3.selectAll(itemSelectorPoly)
+                    
+                    if (typeof thisItem !== 'undefined'){
+                        raiseAndRecolorItem(thisItem, "selectedOther")
+                        //special case (Hawaii), raise the parent group as well
+                        thisItem = d3.selectAll("#Countries>g#"+item)
+                        thisItem.raise()
+                    }
+                });
+            // fills in national participants in purple
+            } else if (countryType === 'national') {
+                countryList = countryList.map(function(item) {
+                    var itemSelectorPolySingle = "#Countries>polygon#"+item
+                    // console.log(itemSelectorPolySingle)
+                    var thisItem = d3.selectAll(itemSelectorPolySingle)
+                    raiseAndRecolorItem(thisItem, "selectedCountry")
+
+                    var itemSelectorPath = "#Countries>path#"+item
+                    // console.log("path")
+                    var thisItem = d3.selectAll(itemSelectorPath)
+                    raiseAndRecolorItem(thisItem, "selectedCountry")
+
+                    var itemSelectorPolyline= "#Countries>polyline#"+item
+                    // console.log(itemSelectorPolyline)
+                    var thisItem = d3.selectAll(itemSelectorPolyline)
+                    raiseAndRecolorItem(thisItem, "selectedCountry")
+                    
+                    var itemSelectorPoly = "#Countries>g#"+item+">polygon"
+                    // console.log(itemSelectorPoly)
+                    var thisItem = d3.selectAll(itemSelectorPoly)
+                    
+                    if (typeof thisItem !== 'undefined'){
+                        raiseAndRecolorItem(thisItem, "selectedCountry")
+                        //special case (Hawaii), raise the parent group as well
+                        thisItem = d3.selectAll("#Countries>g#"+item)
+                        thisItem.raise()
+                    }
+                });
             }
         }
         
