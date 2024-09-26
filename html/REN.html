@@ -16,9 +16,13 @@
 
     <style>
 
+
+
         #REN_body{
             display:flex;
         }
+
+
 
         /* custom css here*/
         #mapImage{
@@ -28,11 +32,13 @@
             /*max-width: 900px;  match https://bgp.nsrc.org/REN/index.html */
         }
 
+
         svg{
             height:100%;
             display: block;
             margin: auto; 
         }
+
         
         .selectedCircle{
             fill-opacity: 0.95 !important;
@@ -41,19 +47,19 @@
         }
         
         /* countries class from SVG*/
-       .cls-16{
+       .st3{
            fill:none!important;
            stroke-linejoin:round!important;
            stroke-linecap:round!important;
         }
         /* Network Name class from SVG**/
-       .cls-6{
+       .st5{
            font-family: Arial, sans-serif!important;
            font-weight: bold!important;
         }
         
         /* ASN */
-       .cls-5{
+       .st7{
            font-family: Arial, sans-serif!important;
            font-weight: 700!important;
            font-style: italic;
@@ -106,10 +112,6 @@
 
     <div id="mapImage" title="Click to open REN info in new tab." ><!-- map inserted here via JS --></div>
 
-
-
-
-
     <!-- JS SOURCES -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
     
@@ -149,7 +151,7 @@
                 
                 
                         var thisCircle = this.id.replaceAll("_", " ");
-                        console.log(thisCircle)
+                        //console.log(thisCircle)
                         // add drop shadow section class to the circle
                         d3.select(this)
                             .classed("selectedCircle", true)
@@ -199,10 +201,10 @@
                             });
                                 
                             } else {
-                                 // is only one country
-                                console.log("COUNTRY")
+                                // is only one country
+                                // console.log("COUNTRY")
                                 if(otherParticipants.includes(thisCircle)){
-                                    console.log('other participant')
+                                    //console.log('other participant')
                                     fillCountry('other')
                                 } else {
                                     fillCountry('national')
@@ -225,7 +227,7 @@
                     })
                     .on("click", function(d,i) { 
                         var thisCircle = this.id.replaceAll("_", " ");
-                        console.log(thisCircle)
+                        //console.log(thisCircle)
                         // highlight the region on the chart
                         d3.select(this)
                             // get REN data from JSON
