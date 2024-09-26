@@ -4,7 +4,7 @@
 	 viewBox="0 0 1920 1226.9" style="enable-background:new 0 0 1920 1226.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{clip-path:url(#SVGID_00000089556922374715124210000001057745921318324109_);}
+	.st1{clip-path:url(#SVGID_00000035495438220758102620000001294738821021232829_);}
 	.st2{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st3{fill:#FFFFFF;fill-opacity:0.8;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st4{fill:#FFFFFF;fill-opacity:0.8;stroke:#9B7EDE;stroke-width:3.6;stroke-miterlimit:10;}
@@ -18,10 +18,10 @@
 	.st12{fill:#E85E13;}
 	.st13{fill:#214A53;}
 	.st14{opacity:0.9;fill:#00B9E4;enable-background:new    ;}
-	.st15{clip-path:url(#SVGID_00000158725436192495727920000006534967008618713275_);}
-	.st16{clip-path:url(#SVGID_00000051377144745895621940000009304632489873345947_);}
-	.st17{clip-path:url(#SVGID_00000076572826750230280050000014796176880496525208_);}
-	.st18{clip-path:url(#SVGID_00000137105006552649202100000010888259377553076100_);}
+	.st15{clip-path:url(#SVGID_00000103964884427104792520000001582617386843050897_);}
+	.st16{clip-path:url(#SVGID_00000023971916597137737270000008459343945509252266_);}
+	.st17{clip-path:url(#SVGID_00000138535808769057958840000006212153560895907984_);}
+	.st18{clip-path:url(#SVGID_00000149372697089789819410000008213203889940394419_);}
 	.st19{font-size:19px;}
 	.st20{font-size:17px;}
 	.st21{fill:#58595B;}
@@ -36,10 +36,10 @@
 				<defs>
 					<rect id="SVGID_1_" x="-77.1" y="-77.3" width="1961" height="1307.3"/>
 				</defs>
-				<clipPath id="SVGID_00000070080770956656828660000002398005239347781539_">
+				<clipPath id="SVGID_00000029727002183003843100000017934367199484262840_">
 					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 				</clipPath>
-				<g style="clip-path:url(#SVGID_00000070080770956656828660000002398005239347781539_);">
+				<g style="clip-path:url(#SVGID_00000029727002183003843100000017934367199484262840_);">
 					
 						<image style="overflow:visible;enable-background:new    ;" width="1800" height="1201" xlink:href="global.png"  transform="matrix(1.1348 0 0 1.1348 -76.8163 -77.6782)">
 					</image>
@@ -1722,6 +1722,9 @@
 		<image style="overflow:visible;enable-background:new    ;" width="43" height="42" xlink:href="map-logos/usp_small.png"  transform="matrix(0.6 0 0 0.6 1774.1 728.4)">
 	</image>
 	
+		<image style="overflow:visible;enable-background:new    ;" width="500" height="132" xlink:href="map-logos/CENIC.png"  transform="matrix(0.2 0 0 0.2 261.713 359.9478)">
+	</image>
+	
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="127" xlink:href="map-logos/Internet2_logo_small.png"  transform="matrix(0.7 0 0 0.7 412.7 306.3)">
 	</image>
 	
@@ -1770,12 +1773,12 @@
 	</g>
 	<g>
 		<defs>
-			<rect id="SVGID_00000016040738118250734240000006141723765322138780_" x="719.1" y="782.4" width="44.1" height="47"/>
+			<rect id="SVGID_00000133512906740803836340000005810292586737156014_" x="719.1" y="782.4" width="44.1" height="47"/>
 		</defs>
-		<clipPath id="SVGID_00000072979304187754667050000006541512294355019194_">
-			<use xlink:href="#SVGID_00000016040738118250734240000006141723765322138780_"  style="overflow:visible;"/>
+		<clipPath id="SVGID_00000097480039716228859940000015238094894686115743_">
+			<use xlink:href="#SVGID_00000133512906740803836340000005810292586737156014_"  style="overflow:visible;"/>
 		</clipPath>
-		<g style="clip-path:url(#SVGID_00000072979304187754667050000006541512294355019194_);">
+		<g style="clip-path:url(#SVGID_00000097480039716228859940000015238094894686115743_);">
 			
 				<image style="overflow:visible;enable-background:new    ;" width="137" height="146" xlink:href="map-logos/RedCLARA_small.png"  transform="matrix(0.3 0 0 0.3 719.075 782.448)">
 			</image>
@@ -1786,12 +1789,12 @@
 	</image>
 	<g>
 		<defs>
-			<rect id="SVGID_00000054245004107094528960000003349928385884371084_" x="949.9" y="833.8" width="85.7" height="44"/>
+			<rect id="SVGID_00000060721320304503913710000014530560282266492310_" x="949.9" y="833.8" width="85.7" height="44"/>
 		</defs>
-		<clipPath id="SVGID_00000170254117419757156780000005441190366207933592_">
-			<use xlink:href="#SVGID_00000054245004107094528960000003349928385884371084_"  style="overflow:visible;"/>
+		<clipPath id="SVGID_00000085937800701445837170000001484812161750936479_">
+			<use xlink:href="#SVGID_00000060721320304503913710000014530560282266492310_"  style="overflow:visible;"/>
 		</clipPath>
-		<g style="clip-path:url(#SVGID_00000170254117419757156780000005441190366207933592_);">
+		<g style="clip-path:url(#SVGID_00000085937800701445837170000001484812161750936479_);">
 			
 				<image style="overflow:visible;enable-background:new    ;" width="150" height="75" xlink:href="map-logos/tenet_small.png"  transform="matrix(0.6 0 0 0.6 949.7739 834.1)">
 			</image>
@@ -1802,12 +1805,12 @@
 	</image>
 	<g>
 		<defs>
-			<rect id="SVGID_00000110445574868407772170000001545236319753878435_" x="1481.5" y="531.4" width="72.1" height="36.2"/>
+			<rect id="SVGID_00000030488737891689729890000001098254321871345588_" x="1481.5" y="531.4" width="72.1" height="36.2"/>
 		</defs>
-		<clipPath id="SVGID_00000069379667361208746070000007312690444936939698_">
-			<use xlink:href="#SVGID_00000110445574868407772170000001545236319753878435_"  style="overflow:visible;"/>
+		<clipPath id="SVGID_00000109740983515022158870000014640307923077101722_">
+			<use xlink:href="#SVGID_00000030488737891689729890000001098254321871345588_"  style="overflow:visible;"/>
 		</clipPath>
-		<g style="clip-path:url(#SVGID_00000069379667361208746070000007312690444936939698_);">
+		<g style="clip-path:url(#SVGID_00000109740983515022158870000014640307923077101722_);">
 			
 				<image style="overflow:visible;enable-background:new    ;" width="238" height="124" xlink:href="map-logos/ThaiREN.png"  transform="matrix(0.3 0 0 0.3 1481.8 530.8)">
 			</image>
@@ -1815,19 +1818,19 @@
 	</g>
 	<g>
 		<defs>
-			<rect id="SVGID_00000181800812675380055380000002469370635573328060_" x="1331.8" y="206.7" width="79.5" height="44.8"/>
+			<rect id="SVGID_00000182519293581025500050000000673030290452586920_" x="1331.8" y="206.7" width="79.5" height="44.8"/>
 		</defs>
-		<clipPath id="SVGID_00000169531734503135772040000006132754876355683250_">
-			<use xlink:href="#SVGID_00000181800812675380055380000002469370635573328060_"  style="overflow:visible;"/>
+		<clipPath id="SVGID_00000028313876681307577560000012636270844516697998_">
+			<use xlink:href="#SVGID_00000182519293581025500050000000673030290452586920_"  style="overflow:visible;"/>
 		</clipPath>
-		<g style="clip-path:url(#SVGID_00000169531734503135772040000006132754876355683250_);">
+		<g style="clip-path:url(#SVGID_00000028313876681307577560000012636270844516697998_);">
 			
 				<image style="overflow:visible;enable-background:new    ;" width="200" height="114" xlink:href="map-logos/Erdemnet_small.png"  transform="matrix(0.4 0 0 0.4 1331.9 206.5)">
 			</image>
 		</g>
 	</g>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="104" xlink:href="map-logos/uran2_small.png"  transform="matrix(0.5 0 0 0.5 1095.826 217.8652)">
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="104" xlink:href="map-logos/uran_small.png"  transform="matrix(0.5 0 0 0.5 1095.826 217.8652)">
 	</image>
 	
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="178" xlink:href="map-logos/u_guam_small.png"  transform="matrix(0.2 0 0 0.2 1701.6 494.8)">
