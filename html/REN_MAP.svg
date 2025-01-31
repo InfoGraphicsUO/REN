@@ -1732,6 +1732,10 @@
 	
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="65" xlink:href="map-logos/geant_small.png"  transform="matrix(0.6 0 0 0.6 930.3 123.5)">
 	</image>
+		</image>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="65" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 930.3 123.5)">
+	</image>
 	<g>
 		<path class="st12" d="M833.3,259.4h41V301h-41V259.4z"/>
 		<path class="st0" d="M845.8,282.4c0,3.3-1.9,5-4.7,5s-3.5-1-4.4-2.3l1.6-1.7c0.8,1,1.6,1.6,2.8,1.6s2.2-0.9,2.2-2.7v-9.2h2.5
