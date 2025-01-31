@@ -119,15 +119,19 @@
     
     <script>
       // ** INSERT LEGEND CHART SVG ** //
-        var otherParticipants = ['University of Hawaii', 'University of the South Pacific', 'GOREX', 'University of Guam']
+        var otherParticipants = ['University of Hawaii', 'University of the South Pacific', 'GOREX', 'University of Guam', 'AIT']
         
-        var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://pages.uoregon.edu/infographics/dev/NSRC/REN/'; // avoid CORS error during dev
+     
         
-        // devPath=''
-            
+        devPath=''
+       
+        var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://infographicsuo.github.io/REN/html/'; // avoid CORS error during dev
+        // for publishing
         d3.text(devPath + "REN_MAP.svg", function(error, externalSVGText) {
                 if (error) {console.log(error); return;}
             else{
+                console.log(location.hostname)
+                console.log(devPath)
                 console.log("SVG Loaded")
                 }
             document.getElementById('mapImage').innerHTML=externalSVGText;

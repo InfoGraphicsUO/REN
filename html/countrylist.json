@@ -9,6 +9,12 @@ var RENData = {
          "URL": "https://bgp.nsrc.org/REN/AARNET-Seattle/"
       }
    ],
+   "AIT": [
+      {
+         "Locations": "Thailand",
+         "URL": "https://bgp.nsrc.org/REN/AIT/"
+      }
+   ],
    "ASREN": [
       {
          "Locations": "Algeria, Bahrain, Comoros, Djibouti, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Mauritania, Morocco, Oman, Palestine, Qatar, Saudi  Arabia, Somalia, Sudan, Syria, Tunisia, United Arab Emirates, Yemen",
