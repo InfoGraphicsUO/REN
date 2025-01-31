@@ -1671,12 +1671,14 @@
 	<circle id="BdREN" class="st4" cx="1358.3" cy="539.7" r="53"/>
 	<circle id="ThaiREN" class="st4" cx="1517.5" cy="533" r="53"/>
 	<circle id="SingAREN" class="st4" cx="1429.5" cy="651.8" r="53"/>
-	<circle id="GOREX" class="st11" cx="1787.5" cy="544.6" r="53"/>
+
 	<circle id="University_of_Guam" class="st11" cx="1715.6" cy="480.7" r="53"/>
+	<circle id="GOREX" class="st11" cx="1787.5" cy="544.6" r="53"/>	
 	<circle id="University_of_the_South_Pacific" class="st11" cx="1786.4" cy="703.4" r="53"/>
 	<circle id="AARNET" class="st4" cx="1601.4" cy="778.7" r="53"/>
 	<circle id="REANNZ" class="st4" cx="1595.3" cy="956.5" r="53"/>
 	<circle id="RENU" class="st4" cx="1058.5" cy="527.2" r="53"/>
+	<circle id="AIT" class="st11" cx="1760" cy="527.2" r="53"/>
 </g>
 <g id="REN_Logos">
 	
@@ -2011,6 +2013,9 @@
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 1386 646.7)" class="st5 st20">SingAREN</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 1386 646.7)" class="st5 st20">AIT</text>
 	</g>
 </g>
 <g id="Creator_Info">
