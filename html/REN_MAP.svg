@@ -1734,7 +1734,7 @@
 	</image>
 		</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="65" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 930.3 123.5)">
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="65" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1500 540)">
 	</image>
 	<g>
 		<path class="st12" d="M833.3,259.4h41V301h-41V259.4z"/>
