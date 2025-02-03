@@ -1734,7 +1734,7 @@
 	</image>
 		</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1530 650)">
+		<image style="overflow:visible;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1526 633)">
 	</image>
 	<g>
 		<path class="st12" d="M833.3,259.4h41V301h-41V259.4z"/>
@@ -2019,7 +2019,7 @@
 		<text transform="matrix(1 0 0 1 1386 646.7)" class="st5 st20">SingAREN</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1575 638)" class="st5 st20">AIT</text>
+		<text transform="matrix(1 0 0 1 1575 625)" class="st5 st20">AIT</text>
 	</g>
 </g>
 <g id="Creator_Info">
