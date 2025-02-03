@@ -1734,7 +1734,7 @@
 	</image>
 		</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1518 629)">
+		<image style="overflow:visible;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1515 628)">
 	</image>
 	<g>
 		<path class="st12" d="M833.3,259.4h41V301h-41V259.4z"/>
@@ -1938,7 +1938,7 @@
 		<text transform="matrix(1 0 0 1 1107.1261 213.3652)" class="st7 st19">12687</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1575 620)" class="st7 st19">4767</text>
+		<text transform="matrix(1 0 0 1 1571 618)" class="st7 st19">4767</text> <!-- AIT -->
 	</g>	
 </g>
 <g id="Network_Name">
