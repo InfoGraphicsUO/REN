@@ -1678,7 +1678,7 @@
 	<circle id="AARNET" class="st4" cx="1601.4" cy="778.7" r="53"/>
 	<circle id="REANNZ" class="st4" cx="1595.3" cy="956.5" r="53"/>
 	<circle id="RENU" class="st4" cx="1058.5" cy="527.2" r="53"/>
-	<circle id="AIT" class="st11" cx="1600" cy="650" r="53"/>
+	<circle id="AIT" class="st11" cx="1589" cy="640" r="53"/>
 </g>
 <g id="REN_Logos">
 	
@@ -1734,7 +1734,7 @@
 	</image>
 		</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1550 663)">
+		<image style="overflow:visible;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1530 650)">
 	</image>
 	<g>
 		<path class="st12" d="M833.3,259.4h41V301h-41V259.4z"/>
@@ -2019,7 +2019,7 @@
 		<text transform="matrix(1 0 0 1 1386 646.7)" class="st5 st20">SingAREN</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1575 630)" class="st5 st20">AIT</text>
+		<text transform="matrix(1 0 0 1 1575 638)" class="st5 st20">AIT</text>
 	</g>
 </g>
 <g id="Creator_Info">
