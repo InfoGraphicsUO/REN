@@ -1649,6 +1649,7 @@
 	<circle id="CEDIA" class="st4" cx="503" cy="679.7" r="53"/>
 	<circle id="RedCLARA" class="st10" cx="741.2" cy="783.6" r="53"/>
 	<circle id="CENIC" class="st4" cx="311.3" cy="372" r="53"/>
+	<circle id="PacWave" class="st4" cx="311.3" cy="310" r="53"/>
 	<circle id="Internet2" class="st4" cx="461.7" cy="340.1" r="53"/>
 	<circle id="ESnet" class="st4" cx="573.5" cy="364.9" r="53"/>
 	<circle id="CANARIE" class="st4" cx="481.2" cy="213.4" r="53"/>
@@ -1689,6 +1690,9 @@
 	</image>
 	
 		<image style="overflow:visible;enable-background:new    ;" width="94" height="86" xlink:href="map-logos/Canarie_logo_cropped_v2.png"  transform="matrix(0.6 0 0 0.6 452.3 208.3)">
+	</image>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="133" xlink:href="map-logos/pacwave.png"  transform="matrix(0.3 0 0 0.3 311 310)">
 	</image>
 	
 		<image style="overflow:visible;enable-background:new    ;" width="75" height="64" xlink:href="map-logos/cedia_cropped_v2.png"  transform="matrix(0.7 0 0 0.7 475.2719 679.5592)">

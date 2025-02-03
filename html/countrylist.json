@@ -117,6 +117,12 @@ var RENData = {
          "URL": "https://bgp.nsrc.org/REN/MARWAN/"
       }
    ],
+   "PacWave": [
+      {
+         "Locations": "United States",
+         "URL": "https://bgp.nsrc.org/REN/PacWave/"
+      }
+   ],
    "PERN": [
       {
          "Locations": "Pakistan",
