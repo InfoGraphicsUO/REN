@@ -1692,7 +1692,7 @@
 		<image style="overflow:visible;enable-background:new    ;" width="94" height="86" xlink:href="map-logos/Canarie_logo_cropped_v2.png"  transform="matrix(0.6 0 0 0.6 452.3 208.3)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="250" height="218" xlink:href="map-logos/pacwave.png"  transform="matrix(0.3 0 0 0.3 302 240)">
+		<image style="overflow:visible;enable-background:new    ;" width="250" height="215" xlink:href="map-logos/pacwave.png"  transform="matrix(0.3 0 0 0.3 302 240)">
 	</image>
 	
 		<image style="overflow:visible;enable-background:new    ;" width="75" height="64" xlink:href="map-logos/cedia_cropped_v2.png"  transform="matrix(0.7 0 0 0.7 475.2719 679.5592)">
@@ -2032,7 +2032,7 @@
 		<text transform="matrix(1 0 0 1 1575 625)" class="st5 st20">AIT</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 302 220)" class="st5 st20">PacWave</text>
+		<text transform="matrix(1 0 0 1 302 240)" class="st5 st20">PacWave</text>
 	</g>
 </g>
 <g id="Creator_Info">
