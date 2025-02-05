@@ -1738,7 +1738,7 @@
 	</image>
 		</image>
 	
-		<image style="overflow:hidden;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1515 628)" preserveAspectRatio="xMidYMid meet">
+		<image style="overflow:hidden;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1516 628)" preserveAspectRatio="xMidYMid meet">
 	</image>
 	<g>
 		<path class="st12" d="M833.3,259.4h41V301h-41V259.4z"/>
