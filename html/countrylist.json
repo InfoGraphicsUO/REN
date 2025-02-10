@@ -129,6 +129,12 @@ var RENData = {
          "URL": "https://bgp.nsrc.org/REN/PERN/"
       }
    ],
+   "PREGINET": [
+      {
+         "Locations": "Philippines",
+         "URL": "https://asti.dost.gov.ph/projects/preginet/"
+      }
+   ],
    "REANNZ": [
       {
          "Locations": "New Zealand",
