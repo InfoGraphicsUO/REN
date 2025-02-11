@@ -2242,7 +2242,7 @@
 	<circle id="CERNET" class="st4" cx="1555.7" cy="421.5" r="53"/>
 	<circle id="DrukREN" class="st4" cx="1361.2" cy="364.5" r="53"/>
 	<circle id="BdREN" class="st4" cx="1358.3" cy="539.7" r="53"/>
-	<circle id="ThaiREN" class="st4" cx="1467.5" cy="533" r="53"/>
+	<circle id="ThaiREN" class="st4" cx="1497.5" cy="533" r="53"/>
 	<circle id="SingAREN" class="st4" cx="1429.5" cy="651.8" r="53"/>
 	<circle id="PREGINET" class="st4" cx="1650" cy="600" r="53"/>
 	<circle id="University_of_Guam" class="st11" cx="1715.6" cy="480.7" r="53"/>
@@ -2394,7 +2394,7 @@
 		</clipPath>
 		<g style="clip-path:url(#SVGID_00000109740983515022158870000014640307923077101722_);">
 			
-				<image style="overflow:visible;enable-background:new    ;" width="238" height="124" xlink:href="map-logos/ThaiREN.png"  transform="matrix(0.3 0 0 0.3 1431.8 530.8)">
+				<image style="overflow:visible;enable-background:new    ;" width="238" height="124" xlink:href="map-logos/ThaiREN.png"  transform="matrix(0.3 0 0 0.3 1461.8 530.8)">
 			</image>
 		</g>
 	</g>
@@ -2491,7 +2491,7 @@
 	<g>
 		<text transform="matrix(1 0 0 1 972.3739 825.2)" class="st7 st19">2018</text>
 	</g>
-	<text transform="matrix(1 0 0 1 1441 504.3)" class="st7 st19">24475</text>
+	<text transform="matrix(1 0 0 1 1471 504.3)" class="st7 st19">24475</text>
 	<g>
 		<text transform="matrix(1 0 0 1 1115.6926 773.6653)" class="st7 st19">36944</text>
 	</g>
@@ -2554,7 +2554,7 @@
 	<g>
 		<text transform="matrix(1 0 0 1 1481.9 277)" class="st5 st20">KREONet2</text>
 	</g>
-	<text transform="matrix(1 0 0 1 1425.9 526)" class="st5 st8">ThaiREN</text>
+	<text transform="matrix(1 0 0 1 1455.9 526)" class="st5 st8">ThaiREN</text>
 	<g>
 		<text transform="matrix(1 0 0 1 1674.5 471.9)" class="st5 st20">University</text>
 	</g>
