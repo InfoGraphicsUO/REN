@@ -1824,7 +1824,7 @@
 		</clipPath>
 		<g style="clip-path:url(#SVGID_00000109740983515022158870000014640307923077101722_);">
 			
-				<image style="overflow:visible;enable-background:new    ;" width="238" height="124" xlink:href="map-logos/ThaiREN.png"  transform="matrix(0.3 0 0 0.3 1461.8 530.8)">
+				<image style="overflow:visible;enable-background:new    ;" width="238" height="124" xlink:href="map-logos/ThaiREN.png"  transform="matrix(0.3 0 0 0.3 1481.8 530.8)">
 			</image>
 		</g>
 	</g>
@@ -1921,7 +1921,7 @@
 	<g>
 		<text transform="matrix(1 0 0 1 972.3739 825.2)" class="st7 st19">2018</text>
 	</g>
-	<text transform="matrix(1 0 0 1 1471 504.3)" class="st7 st19">24475</text>
+	<text transform="matrix(1 0 0 1 1491 504.3)" class="st7 st19">24475</text>
 	<g>
 		<text transform="matrix(1 0 0 1 1115.6926 773.6653)" class="st7 st19">36944</text>
 	</g>
@@ -1987,7 +1987,7 @@
 	<g>
 		<text transform="matrix(1 0 0 1 1481.9 277)" class="st5 st20">KREONet2</text>
 	</g>
-	<text transform="matrix(1 0 0 1 1455.9 526)" class="st5 st8">ThaiREN</text>
+	<text transform="matrix(1 0 0 1 1465.9 526)" class="st5 st8">ThaiREN</text>
 	<g>
 		<text transform="matrix(1 0 0 1 1674.5 471.9)" class="st5 st20">University</text>
 	</g>
