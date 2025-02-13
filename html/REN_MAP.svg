@@ -1673,7 +1673,7 @@
 	<circle id="ThaiREN" class="st4" cx="1515.5" cy="533" r="53"/> 	<!-- 1497 -->
 	<circle id="SingAREN" class="st4" cx="1429.5" cy="651.8" r="53"/>
 	<circle id="PREGINET" class="st4" cx="1650" cy="550" r="53"/> <!-- cx="1650" cy="600" -->
-	<circle id="University_of_Guam" class="st11" cx="1715.6" cy="480.7" r="53"/>
+	<circle id="University_of_Guam" class="st11" cx="1715.6" cy="460.7" r="53"/>
 	<circle id="GOREX" class="st11" cx="1787.5" cy="544.6" r="53"/>	
 	<circle id="University_of_the_South_Pacific" class="st11" cx="1786.4" cy="703.4" r="53"/>
 	<circle id="AARNET" class="st4" cx="1601.4" cy="778.7" r="53"/>
@@ -1845,7 +1845,7 @@
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="104" xlink:href="map-logos/uran_small.png"  transform="matrix(0.5 0 0 0.5 1095.826 217.8652)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="178" xlink:href="map-logos/u_guam_small.png"  transform="matrix(0.2 0 0 0.2 1701.6 494.8)">
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="178" xlink:href="map-logos/u_guam_small.png"  transform="matrix(0.2 0 0 0.2 1701.6 474.8)">
 	</image>
 </g>
 <g id="ASN_Numbers">
@@ -1926,7 +1926,7 @@
 		<text transform="matrix(1 0 0 1 1115.6926 773.6653)" class="st7 st19">36944</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1682.3 454.5)" class="st7 st19">395400</text>
+		<text transform="matrix(1 0 0 1 1682.3 434.5)" class="st7 st19">395400</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 77 482.5)" class="st7 st19">6360</text>
@@ -1989,10 +1989,10 @@
 	</g>
 	<text transform="matrix(1 0 0 1 1470.9 526)" class="st5 st8">ThaiREN</text>
 	<g>
-		<text transform="matrix(1 0 0 1 1674.5 471.9)" class="st5 st20">University</text>
+		<text transform="matrix(1 0 0 1 1674.5 451.9)" class="st5 st20">University</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1681.1 490.9)" class="st5 st20">of Guam</text>
+		<text transform="matrix(1 0 0 1 1681.1 470.9)" class="st5 st20">of Guam</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 1745.3 689.9)" class="st5 st20">University</text>
