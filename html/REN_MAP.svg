@@ -1679,7 +1679,7 @@
 	<circle id="AARNET" class="st4" cx="1601.4" cy="778.7" r="53"/>
 	<circle id="REANNZ" class="st4" cx="1595.3" cy="956.5" r="53"/>
 	<circle id="RENU" class="st4" cx="1058.5" cy="527.2" r="53"/>
-	<circle id="AIT" class="st11" cx="1540" cy="633" r="53"/> <!-- 1589 -->
+	<circle id="AIT" class="st11" cx="1540" cy="628" r="53"/> <!-- 1589 -->
 </g>
 <g id="REN_Logos">
 	
@@ -1740,7 +1740,7 @@
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="65" xlink:href="map-logos/geant_small.png"  transform="matrix(0.6 0 0 0.6 930.3 123.5)">
 	</image>
 	
-		<image style="overflow:hidden;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1499 628)" preserveAspectRatio="xMidYMid meet">
+		<image style="overflow:hidden;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1475 615)" preserveAspectRatio="xMidYMid meet">
 	</image>
 	<g>
 		<path class="st12" d="M833.3,259.4h41V301h-41V259.4z"/>
@@ -1944,7 +1944,7 @@
 		<text transform="matrix(1 0 0 1 1107.1261 213.3652)" class="st7 st19">12687</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1550 610)" class="st7 st19">4767</text> <!-- AIT -->
+		<text transform="matrix(1 0 0 1 1540 602)" class="st7 st19">4767</text> <!-- AIT -->
 	</g>	
 	<g>
 		<text transform="matrix(1 0 0 1 312 220)" class="st7 st19">62819</text> <!-- pacwave -->
@@ -2034,7 +2034,7 @@
 		<text transform="matrix(1 0 0 1 1386 646.7)" class="st5 st20">SingAREN</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1550 625)" class="st5 st20">AIT</text>
+		<text transform="matrix(1 0 0 1 1535 620)" class="st5 st20">AIT</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 302 240)" class="st5 st20">PacWave</text>
