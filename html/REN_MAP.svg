@@ -1695,7 +1695,7 @@
 		<image style="overflow:hidden;enable-background:new    ;" width="250" height="215" xlink:href="map-logos/pacwave.png"  transform="matrix(0.3 0 0 0.3 302 230)" preserveAspectRatio="xMidYMid meet">
 	</image>
 
-	<image style="overflow:hidden;enable-background:new    ;" width="238" height="202" xlink:href="map-logos/PREGINET.png"  transform="matrix(0.3 0 0 0.3 1625 549)" preserveAspectRatio="xMidYMid meet">
+	<image style="overflow:hidden;enable-background:new    ;" width="238" height="202" xlink:href="map-logos/PREGINET.png"  transform="matrix(0.3 0 0 0.3 1620 542)" preserveAspectRatio="xMidYMid meet">
 	</image>
 	
 		<image style="overflow:visible;enable-background:new    ;" width="75" height="64" xlink:href="map-logos/cedia_cropped_v2.png"  transform="matrix(0.7 0 0 0.7 475.2719 679.5592)">
@@ -1950,7 +1950,7 @@
 		<text transform="matrix(1 0 0 1 312 220)" class="st7 st19">62819</text> <!-- pacwave -->
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1641 523)" class="st7 st19">9821</text> <!-- PREGINET -->
+		<text transform="matrix(1 0 0 1 1635 523)" class="st7 st19">9821</text> <!-- PREGINET -->
 	</g>
 </g>
 <g id="Network_Name">
