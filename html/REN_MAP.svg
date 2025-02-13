@@ -1695,7 +1695,7 @@
 		<image style="overflow:hidden;enable-background:new    ;" width="250" height="215" xlink:href="map-logos/pacwave.png"  transform="matrix(0.3 0 0 0.3 302 230)" preserveAspectRatio="xMidYMid meet">
 	</image>
 
-	<image style="overflow:hidden;enable-background:new    ;" width="250" height="215" xlink:href="map-logos/PREGINET.png"  transform="matrix(0.3 0 0 0.3 1650 550)" preserveAspectRatio="xMidYMid meet">
+	<image style="overflow:hidden;enable-background:new    ;" width="250" height="215" xlink:href="map-logos/PREGINET.png"  transform="matrix(0.3 0 0 0.3 1630 553)" preserveAspectRatio="xMidYMid meet">
 	</image>
 	
 		<image style="overflow:visible;enable-background:new    ;" width="75" height="64" xlink:href="map-logos/cedia_cropped_v2.png"  transform="matrix(0.7 0 0 0.7 475.2719 679.5592)">
@@ -1740,7 +1740,7 @@
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="65" xlink:href="map-logos/geant_small.png"  transform="matrix(0.6 0 0 0.6 930.3 123.5)">
 	</image>
 	
-		<image style="overflow:hidden;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1475 615)" preserveAspectRatio="xMidYMid meet">
+		<image style="overflow:hidden;enable-background:new    ;" width="250" height="108" xlink:href="map-logos/AIT_globe.png"  transform="matrix(0.6 0 0 0.6 1465 615)" preserveAspectRatio="xMidYMid meet">
 	</image>
 	<g>
 		<path class="st12" d="M833.3,259.4h41V301h-41V259.4z"/>
@@ -1944,13 +1944,13 @@
 		<text transform="matrix(1 0 0 1 1107.1261 213.3652)" class="st7 st19">12687</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1540 602)" class="st7 st19">4767</text> <!-- AIT -->
+		<text transform="matrix(1 0 0 1 1530 602)" class="st7 st19">4767</text> <!-- AIT -->
 	</g>	
 	<g>
 		<text transform="matrix(1 0 0 1 312 220)" class="st7 st19">62819</text> <!-- pacwave -->
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1650 540)" class="st7 st19">9821</text> <!-- PREGINET -->
+		<text transform="matrix(1 0 0 1 1645 530)" class="st7 st19">9821</text> <!-- PREGINET -->
 	</g>
 </g>
 <g id="Network_Name">
@@ -2034,13 +2034,13 @@
 		<text transform="matrix(1 0 0 1 1386 646.7)" class="st5 st20">SingAREN</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1535 620)" class="st5 st20">AIT</text>
+		<text transform="matrix(1 0 0 1 1525 618)" class="st5 st20">AIT</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 302 240)" class="st5 st20">PacWave</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 1600 550)" class="st5 st20">PREGINET</text>
+		<text transform="matrix(1 0 0 1 1605 545)" class="st5 st20">PREGINET</text>
 	</g>
 </g>
 <g id="Creator_Info">
