@@ -125,7 +125,7 @@
         
         devPath=''
        
-        var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://infographicsuo.github.io/REN/html/'; // avoid CORS error during dev
+        //var devPath = (location.hostname == "pages.uoregon.edu" )? '': 'https://infographicsuo.github.io/REN/html/'; // avoid CORS error during dev
         // for publishing
         d3.text(devPath + "REN_MAP.svg", function(error, externalSVGText) {
                 if (error) {console.log(error); return;}

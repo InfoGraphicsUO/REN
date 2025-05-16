@@ -212,5 +212,11 @@ var RENData = {
          "Locations": "Zambia",
          "URL": "https://bgp.nsrc.org/REN/ZAMREN/"
       }
+   ],
+   "TWAREN": [
+      {
+         "Locations": "Taiwan",
+         "URL": "https://bgp.nsrc.org/REN/TWAREN/"
+      }
    ]
 }
