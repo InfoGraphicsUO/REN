@@ -218,5 +218,11 @@ var RENData = {
          "Locations": "Taiwan",
          "URL": "https://bgp.nsrc.org/REN/TWAREN/"
       }
-   ]
+   ],
+   "HEAnet": [
+      {
+         "Locations": "Ireland",
+         "URL": "https://bgp.nsrc.org/REN/HEANET/"
+      }
+   ],
 }
