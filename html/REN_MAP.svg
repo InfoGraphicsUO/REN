@@ -6,7 +6,7 @@
 	.st0{fill:#FFFFFF;}
 	.st1{clip-path:url(#SVGID_00000035495438220758102620000001294738821021232829_);}
 	.st2{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st3{fill:#FFFFFF;fill-opacity:0.8;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st3{fill:#000000;fill-opacity:0.8;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st4{fill:#FFFFFF;fill-opacity:0.8;stroke:#9B7EDE;stroke-width:3.6;stroke-miterlimit:10;}
 	.st5{font-family:'Arial-BoldMT';}
 	.st6{font-size:22px;}
@@ -1596,7 +1596,7 @@
 		380.1,340.4 380.1,339.8 380.1,339.1 379.5,338.2 379.5,336.9 379.5,335.5 380.1,334.1 380.1,332.7 380.9,331.3 381.6,330.5 
 		381.6,329.8 382.3,329.2 381.6,327.7 381.6,326.3 381.6,325.6 382.3,324.9 383,324.2 383.7,323.4 384.4,322.7 385.1,321.4 
 		385.8,320.6 387.2,319.2 387.2,318.4 387.9,317.1 387.9,316.5 388.6,315.6 	"/>
-	</g>
+</g>
 <g id="Legend">
 	<g>
 		<circle class="st4" cx="74.2" cy="910.1" r="53"/>
@@ -1998,6 +1998,7 @@
 	<g>
 		<text transform="matrix(1 0 0 1 1405.1 283.6)" class="st5 st8">CERNET</text>
 	</g>
+	<g>
 		<text transform="matrix(1 0 0 1 1560.1 425.6)" class="st5 st8">TWAREN</text>
 	</g>
 	<g>
