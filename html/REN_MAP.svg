@@ -1661,9 +1661,10 @@
 	<circle id="University_of_Hawaii" class="st11" cx="100.1" cy="511.8" r="53"/>
 	<circle id="CEDIA" class="st4" cx="503" cy="679.7" r="53"/>
 	<circle id="RedCLARA" class="st10" cx="741.2" cy="783.6" r="53"/>
-	<circle id="CENIC" class="st4" cx="311.3" cy="372" r="53"/>
-	<circle id="PacWave" class="st4" cx="340" cy="250" r="53"/>
+	<circle id="CENIC" class="st4" cx="325" cy="385" r="53"/>
+	<circle id="PacWave" class="st4" cx="365" cy="230" r="53"/>
 	<circle id="Internet2" class="st4" cx="461.7" cy="340.1" r="53"/>
+	<circle id="LinkOregon" class="st11" cx="265" cy="285" r="53"/>
 	<circle id="ESnet" class="st4" cx="573.5" cy="364.9" r="53"/>
 	<circle id="CANARIE" class="st4" cx="481.2" cy="213.4" r="53"/>
 	<circle id="Janet" class="st4" cx="935.8" cy="180.4" r="53"/>
@@ -1707,7 +1708,10 @@
 		<image style="overflow:visible;enable-background:new    ;" width="94" height="86" xlink:href="map-logos/Canarie_logo_cropped_v2.png"  transform="matrix(0.6 0 0 0.6 452.3 208.3)">
 	</image>
 	
-		<image style="overflow:hidden;enable-background:new    ;" width="250" height="215" xlink:href="map-logos/pacwave.png"  transform="matrix(0.3 0 0 0.3 302 230)" preserveAspectRatio="xMidYMid meet">
+		<image style="overflow:hidden;enable-background:new    ;" width="250" height="215" xlink:href="map-logos/pacwave.png"  transform="matrix(0.3 0 0 0.3 328 215)" preserveAspectRatio="xMidYMid meet">
+	</image>
+
+			<image style="overflow:hidden;enable-background:new    ;" width="250" height="215" xlink:href="map-logos/LinkOregon.png"  transform="matrix(0.4 0 0 0.4 213 245)" preserveAspectRatio="xMidYMid meet">
 	</image>
 
 	<image style="overflow:hidden;enable-background:new    ;" width="238" height="202" xlink:href="map-logos/PREGINET.png"  transform="matrix(0.3 0 0 0.3 1614 542)" preserveAspectRatio="xMidYMid meet">
@@ -1749,7 +1753,7 @@
 		<image style="overflow:visible;enable-background:new    ;" width="43" height="42" xlink:href="map-logos/usp_small.png"  transform="matrix(0.6 0 0 0.6 1774.1 728.4)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="500" height="132" xlink:href="map-logos/CENIC.png"  transform="matrix(0.2 0 0 0.2 261.713 359.9478)">
+		<image style="overflow:visible;enable-background:new    ;" width="500" height="132" xlink:href="map-logos/CENIC.png"  transform="matrix(0.2 0 0 0.2 275 371)">
 	</image>
 	
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="127" xlink:href="map-logos/Internet2_logo_small.png"  transform="matrix(0.7 0 0 0.7 412.7 306.3)">
@@ -1886,7 +1890,7 @@
 		<text transform="matrix(1 0 0 1 476.2719 652.2593)" class="st7 st19">61468</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 289.9131 342.2479)" class="st7 st19">2153</text>
+		<text transform="matrix(1 0 0 1 303 355)" class="st7 st19">2153</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 1425.1 263.6)" class="st7 st19">2391</text>
@@ -1968,7 +1972,10 @@
 		<text transform="matrix(1 0 0 1 1523 595)" class="st7 st19">4767</text> <!-- AIT -->
 	</g>	
 	<g>
-		<text transform="matrix(1 0 0 1 312 220)" class="st7 st19">62819</text> <!-- pacwave -->
+		<text transform="matrix(1 0 0 1 340 200)" class="st7 st19">62819</text> <!-- pacwave -->
+	</g>
+	<g>
+			<text transform="matrix(1 0 0 1 245 255)" class="st7 st19">3701</text> <!-- LINKOregon -->
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 1635 523)" class="st7 st19">9821</text> <!-- PREGINET -->
@@ -2067,7 +2074,7 @@
 		<text transform="matrix(1 0 0 1 1525 613)" class="st5 st20">AIT</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 302 240)" class="st5 st20">PacWave</text>
+		<text transform="matrix(1 0 0 1 333 225)" class="st5 st20">PacWave</text>
 	</g>
 	<g>
 		<text transform="matrix(1 0 0 1 1607 541)" class="st5 st20">PREGINET</text>
@@ -2144,6 +2151,6 @@
 	
 		<image style="overflow:visible;enable-background:new    ;" width="211" height="100" id="NSRC_Logo" xlink:href="nsrc-main-logo-transparent.png"  transform="matrix(1 0 0 1 1658.826 990.8261)">
 	</image>
-	<text transform="matrix(1 0 0 1 846.7458 1196.5477)" class="st21 st22 st23">Last Updated Oct 2025</text>
+	<text transform="matrix(1 0 0 1 846.7458 1196.5477)" class="st21 st22 st23">Last Updated March 2026</text>
 </g>
 </svg>

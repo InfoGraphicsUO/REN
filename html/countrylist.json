@@ -225,4 +225,10 @@ var RENData = {
          "URL": "https://bgp.nsrc.org/REN/HEANET/"
       }
    ],
+      "LinkOregon": [
+      {
+         "Locations": "Oregon",
+         "URL": "https://bgp.nsrc.org/REN/LinkOregon/"
+      }
+   ],
 }
